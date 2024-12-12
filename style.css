@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Fredoka One';
+}
+.container{
+    background-image: url('https://media.istockphoto.com/id/1919127117/photo/q-and-a-concept-q-and-a-symbols-on-wooden-cube-blocks-on-a-grey-background-illustration-for.jpg?s=2048x2048&w=is&k=20&c=6r2g5fSnSaqrCYoO-Y9CFckGaQmTDJNDOcQf4QT7rT4=');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 40px;
+    color: brown;
+    padding: 20px;
+    font-size: 50px;
+}
+#quiz{
+    color:bisque;
+    -webkit-text-stroke: 5px rgb(65, 11, 11);
+    font-size: 120px;
+    margin-top: 60px;
+}
+
+.playbtn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
+    color: brown;
+    gap: 20px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.playbtn img{
+    width: 40px;
+   
+}
+/**/
+
+.container3 {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/start-removebg-preview.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #a50fe5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+
+    #quiz {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    .playbtn {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: rgb(85, 25, 196);
+        gap: 5px;
+        margin-left: 20px;
+        cursor: pointer;
+        padding: 0;
+    }
+    .container3{
+        background-image: url('https://media.istockphoto.com/id/680443836/photo/dandelion-silhouette-against-sunset.jpg?s=2048x2048&w=is&k=20&c=6U0A5f3Qrz2UgE7T7w9Y36eGl18-LN5xZxIrniNxXbA=');
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+  

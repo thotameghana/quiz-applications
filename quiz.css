@@ -1,0 +1,113 @@
+body{
+    background-image: url('./assets/istockphoto-1182278977-2048x2048.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+.app{
+    background: rgba(247, 157, 157, 0.9);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding:15px ;
+  }
+.header{
+    font-size: 30px;
+    color: rgb(211, 81, 21);
+    border-bottom: 1px solid #080707;
+    text-align: center;
+  }
+.quiz{
+    padding: 20px 0;
+  }
+.quiz h2{
+    font-size: 28px;
+    color: rgb(0, 0, 255);
+    text-align: left;
+    font-weight: bold;
+  }
+.btn{
+    background: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid gray;
+    padding:10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 20px;
+  }
+.btn:hover{
+    background-color:rgb(8, 230, 193);
+    color: white;
+  }
+
+  .msg{
+    font-weight: bold;
+    color: rgb(72, 0, 239);
+    font-size: 25px;
+  }
+#nextbtn{
+    background: rgb(211, 81, 21);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    display: none;
+}
+#msg{
+  color: red;
+  display: none;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header img{
+  width: 40px;
+  height: 30px;
+  margin-top: 70px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+      *{
+        font-size: 20px;
+      }
+     .app{
+        width: 60%;
+        max-width: 400px;
+        height: 40px;
+        border-radius: 10px;
+        width: 80vw;
+        height: 77vh;
+     }
+     #question{
+      font-size: 25px;
+     }
+     .header img{
+      margin-top: 20px;
+    }
+    .btn{
+      font-size: 20px;
+    }
+    .header h1{
+      font-size: 35px;
+    }
+    .msg{
+      font-size: 35px;
+    }
+}
+  
